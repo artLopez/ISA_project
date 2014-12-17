@@ -1,0 +1,14 @@
+100, CLEARALL
+101, IN, 113
+102, RESERVE, num
+103, PACK, ara, 107-111
+104, CHECK, ara, num
+105, STOP
+106, ara
+107, Dec, 10
+108, Dec, 30
+109, Dec, 50
+110, Dec, 12
+111, Dec, 17
+112, num, Dec, 0
+113, String, Enter a number to check if it’s in the array:
