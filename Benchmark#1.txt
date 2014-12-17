@@ -1,0 +1,13 @@
+100, CLEARALL
+101, IN, 111
+102, RESERVE, numCount
+103, COIL, numCount, 104-106
+104, IN, 112
+105, ADD, sum
+106, RESERVE, sum
+107, OUT, sum
+108, STOP
+109, numCount, dec, 0
+110, sum, dec, 0
+111, String, How many numbers will you enter: 
+112, String, Enter a number:
